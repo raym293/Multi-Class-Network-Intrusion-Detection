@@ -1,0 +1,75 @@
+result,recomputed,reported,difference,matches_at_reported_precision
+Original forest · CV 1 macro-F1,0.678561,0.677874,0.000688,False
+Original forest · CV 2 macro-F1,0.587428,0.585550,0.001879,False
+Original forest · CV 3 macro-F1,0.573213,0.575567,-0.002353,False
+Original forest · mean CV macro-F1,0.613068,0.612997,0.000071,False
+Frozen ensemble · CV 1 macro-F1,0.738407,0.741463,-0.003056,False
+Frozen ensemble · CV 2 macro-F1,0.612391,0.622164,-0.009772,False
+Frozen ensemble · CV 3 macro-F1,0.789245,0.799672,-0.010427,False
+Frozen ensemble · mean CV macro-F1,0.713348,0.721100,-0.007752,False
+Original forest · full holdout macro f1,0.646566,0.647644,-0.001078,False
+Original forest · full holdout accuracy,0.956630,0.957484,-0.000853,False
+Original forest · full holdout benign alert rate,0.024719,0.023710,0.001009,False
+Original forest · full holdout benign alerts,74969.000000,71910.000000,3059.000000,False
+Original forest · Benign F1,0.983829,0.984322,-0.000493,False
+Original forest · Bot F1,0.975813,0.976052,-0.000239,False
+Original forest · Brute Force F1,0.740727,0.740872,-0.000145,False
+Original forest · DoS F1,0.598786,0.599376,-0.000590,False
+Original forest · DDoS F1,0.991079,0.993332,-0.002253,False
+Original forest · Infiltration F1,0.175756,0.177470,-0.001714,False
+Original forest · Web Attack F1,0.059976,0.062088,-0.002111,False
+Frozen ensemble · full holdout macro f1,0.706340,0.713715,-0.007375,False
+Frozen ensemble · full holdout accuracy,0.974953,0.974970,-0.000017,True
+Frozen ensemble · full holdout benign alert rate,0.001858,0.001809,0.000049,False
+Frozen ensemble · full holdout benign alerts,5636.000000,5487.000000,149.000000,False
+Frozen ensemble · Benign F1,0.994101,0.994115,-0.000014,True
+Frozen ensemble · Bot F1,0.993500,0.993434,0.000066,False
+Frozen ensemble · Brute Force F1,0.738974,0.739099,-0.000125,False
+Frozen ensemble · DoS F1,0.630514,0.630246,0.000268,False
+Frozen ensemble · DDoS F1,0.998491,0.998469,0.000022,True
+Frozen ensemble · Infiltration F1,0.106416,0.102418,0.003998,False
+Frozen ensemble · Web Attack F1,0.482385,0.538226,-0.055841,False
+Majority · Original CV macro-F1,0.128843,0.128843,0.000000,True
+Majority · Original sample macro-F1,0.133881,0.133881,0.000000,True
+Gaussian Naive Bayes · Original CV macro-F1,0.162832,0.162832,0.000000,True
+Gaussian Naive Bayes · Original sample macro-F1,0.154812,0.154812,0.000000,True
+Gaussian Naive Bayes · Selected CV macro-F1,0.307664,0.307664,0.000000,True
+Gaussian Naive Bayes · Selected sample macro-F1,0.273326,0.273326,0.000000,True
+CART · Original CV macro-F1,0.613096,0.605901,0.007195,False
+CART · Original sample macro-F1,0.632343,0.632465,-0.000121,False
+CART · Selected CV macro-F1,0.706800,0.709721,-0.002921,False
+CART · Selected sample macro-F1,0.669608,0.669440,0.000168,False
+Logistic regression · Original CV macro-F1,0.547046,0.544661,0.002386,False
+Logistic regression · Original sample macro-F1,0.479454,0.476017,0.003437,False
+Logistic regression · Selected CV macro-F1,0.568149,0.567364,0.000784,False
+Logistic regression · Selected sample macro-F1,0.496114,0.498581,-0.002467,False
+Linear SVM · Original CV macro-F1,0.527538,0.527505,0.000033,True
+Linear SVM · Original sample macro-F1,0.442945,0.442956,-0.000011,False
+k-NN · Original CV macro-F1,0.577105,0.577066,0.000039,True
+k-NN · Original sample macro-F1,0.554197,0.554156,0.000041,True
+k-NN · Selected CV macro-F1,0.659046,0.659046,0.000000,True
+k-NN · Selected sample macro-F1,0.600644,0.600619,0.000025,True
+AdaBoost · Original CV macro-F1,0.311631,0.311631,0.000000,True
+AdaBoost · Original sample macro-F1,0.258265,0.258265,0.000000,True
+AdaBoost · Selected CV macro-F1,0.615696,0.615571,0.000125,False
+AdaBoost · Selected sample macro-F1,0.649926,0.649926,0.000000,True
+Bagged trees · Original CV macro-F1,0.606982,0.607125,-0.000143,False
+Bagged trees · Original sample macro-F1,0.641298,0.641714,-0.000416,False
+Bagged trees · Selected CV macro-F1,0.714394,0.714070,0.000323,False
+Bagged trees · Selected sample macro-F1,0.699533,0.698523,0.001010,False
+Random Forest · Original CV macro-F1,0.613068,0.612997,0.000071,False
+Random Forest · Original sample macro-F1,0.645246,0.646675,-0.001430,False
+Random Forest · Selected CV macro-F1,0.700724,0.713228,-0.012504,False
+Random Forest · Selected sample macro-F1,0.697644,0.717510,-0.019867,False
+Regression · Original MAE,1.530687,1.530687,-0.000000,True
+Regression · Original R²,0.680674,0.680674,0.000000,True
+Regression · Selected MAE,0.609183,0.609183,0.000000,True
+Regression · Selected R²,0.835962,0.835962,0.000000,True
+K-means · Original silhouette,0.539351,0.539351,0.000000,True
+K-means · Original adjusted Rand,0.020614,0.020614,0.000000,True
+K-means · Selected silhouette,0.539351,0.539351,0.000000,True
+K-means · Selected adjusted Rand,0.020614,0.020614,0.000000,True
+Hierarchical · Original silhouette,0.428940,0.428940,0.000000,True
+Hierarchical · Original adjusted Rand,0.002173,0.002173,0.000000,True
+Hierarchical · Selected silhouette,0.577861,0.577861,0.000000,True
+Hierarchical · Selected adjusted Rand,-0.009671,-0.009671,0.000000,True
